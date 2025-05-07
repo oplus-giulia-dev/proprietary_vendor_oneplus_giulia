@@ -926,6 +926,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
     vendor/oneplus/giulia/proprietary/vendor/etc/card-defs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/card-defs.xml \
     vendor/oneplus/giulia/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
+    vendor/oneplus/giulia/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/oneplus/giulia/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/giulia/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/oneplus/giulia/proprietary/vendor/lib64/bm3b68v04s12n53.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm3b68v04s12n53.bin \
     vendor/oneplus/giulia/proprietary/vendor/lib64/bm3b73v04s12n50.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm3b73v04s12n50.bin \
