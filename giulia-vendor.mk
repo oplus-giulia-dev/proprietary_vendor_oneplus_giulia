@@ -839,7 +839,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/23867/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/23867/charging_hyper_mode_config.txt \
     vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/bms_heating_config.txt \
     vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
-    vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/silicon_x24_smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/silicon_x24_smart_chg_config_table.txt \
     vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
     vendor/oneplus/giulia/proprietary/odm/firmware/sipa.bin:$(TARGET_COPY_OUT_ODM)/firmware/sipa.bin \
     vendor/oneplus/giulia/proprietary/odm/firmware/tp/23851/FW_S3910_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23851/FW_S3910_BOE.img \
