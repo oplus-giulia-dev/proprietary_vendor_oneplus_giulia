@@ -1222,11 +1222,9 @@ PRODUCT_PACKAGES += \
     libmmcamera_mfnr_t4 \
     libmmcamera_pdpc \
     libmmcamera_pnc \
-    libnanopb \
     libopencv \
     libopencv3a \
     libopestriping \
-    libos \
     libqll \
     libqll10 \
     libqllengine \
@@ -1236,9 +1234,7 @@ PRODUCT_PACKAGES += \
     libsgutils2 \
     libspectre \
     libswregistrationalgo \
-    libsynx \
     libtfestriping \
-    libthreadutils \
     libtriplecam_optical_zoom_control_vendor \
     libtriplecam_video_optical_zoom_vendor \
     libubifocus \
@@ -1289,7 +1285,6 @@ PRODUCT_PACKAGES += \
     libFaceBeautyPre \
     libFaceDistortionCorrection \
     libFilterWrapper \
-    libGaiaClient_vnd \
     libHDRDetection \
     libHIS \
     libImageWarpMask \
@@ -1312,7 +1307,6 @@ PRODUCT_PACKAGES += \
     libPolarrRender \
     libPreviewDecisionOld \
     libRedeyeReduce \
-    libSNPE \
     libSnpeHta \
     libSnpeHtpPrepare \
     libSnpeHtpV75Stub \
@@ -1338,9 +1332,9 @@ PRODUCT_PACKAGES += \
     libancbase_segment \
     libancbase_segmulti \
     libapsexif \
-    libapsjpeg \
     libapspng \
     libapsyuv \
+    libarc.fusion \
     libarcsoft_distortion_correction \
     libarcsoft_dual_sat \
     libarcsoft_dual_zoomtranslator \
@@ -1361,7 +1355,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_mcxmflpolicy \
     libarcsoft_merge_hdr_denoise_api \
     libarcsoft_preview_antibanding \
-    libarcsoft_qnnhtp \
     libarcsoft_scbokeh_video \
     libarcsoft_smart_denoise \
     libarcsoft_smart_denoise_v4 \
@@ -1375,7 +1368,6 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_raw \
     libarcsoft_ultra_high_dynamic_range \
     libarcsoft_videoautozoom \
-    libc++_shared \
     libcalculator \
     libcalculator_htp \
     libcreatebin \
@@ -1393,7 +1385,6 @@ PRODUCT_PACKAGES += \
     libhybridraw_tuningparams \
     libhyperlapse \
     libimgClarityEvaluate \
-    libmpbase \
     libmsnativefilter \
     libmvgcommon \
     libnpu \
