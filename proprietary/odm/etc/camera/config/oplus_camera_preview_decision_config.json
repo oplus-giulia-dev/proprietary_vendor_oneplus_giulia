@@ -7262,10 +7262,16 @@
         "mode":"SINGLE_ALGO_FILTER",
         "condition":{
           "and":{
-            "not_eq":[
-              "paramsHolder->filter_open",
-              0
-            ],
+            "or":{
+              "not_eq":[
+                "paramsHolder->filter_open",
+                0
+              ],
+              "not_eq1":[
+                "paramsHolder->blacksoft_enable",
+                0
+              ]
+            },
             "and":{
               "not_eq":[
                 "paramsHolder->capture_mode",
@@ -7285,7 +7291,11 @@
                 "APS_ALGO_FILTER"
               ]
             },
-            "plan":null
+            "plan":[
+              {
+                "planCondition":{}
+              }
+            ]
           }
         ],
         "nextMode":"SINGLE_ALGO_SUPER_TEXT"

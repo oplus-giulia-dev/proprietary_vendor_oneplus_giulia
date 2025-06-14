@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <root>
-    <version>2025040101</version>
+    <version>2024092301</version>
     <device id = "0">
         <panel id = "0" name="tp/23851/FW_S3910_BOE_HBP.img">
             <modules id="PreventionConfig" enable="true" hint="">
@@ -227,9 +227,6 @@
                 </param>
                 <param name="touchZToPressureSupport" type="u32" hint="" >
                     <value>1</value>
-                </param>
-                <param name="floatLimitValue" type="u32" hint="" >
-                    <value>700</value>
                 </param>
             </modules>
         </panel>
