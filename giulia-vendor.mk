@@ -58,8 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/CaliData/mtStereoParams_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CaliData/mtStereoParams_golden.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/CaliData/mwStereoParams_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/CaliData/mwStereoParams_golden.bin \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/CameraOemConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraOemConfiguration.config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/M_FaceAttribute_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/M_FaceAttribute_RGB.model \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/Vega_Attribute_Face_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Attribute_Face_RGB.model \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/Vega_Detect_FaceAnimal_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Detect_FaceAnimal_Gray.model \
@@ -111,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/basictone/vig/VigTab_Tele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Tele \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/basictone/vig/VigTab_UTele:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_UTele \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/basictone/vig/VigTab_Wide:$(TARGET_COPY_OUT_ODM)/etc/camera/basictone/vig/VigTab_Wide \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
@@ -120,21 +117,11 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/cfr_bin/CFR_imx906.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_imx906.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/cfr_bin/CFR_s5kjn5_giulia.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_s5kjn5_giulia.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/conf_tuning_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/conf_tuning_params.json \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_config \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/etc/camera/config/camera_unit_feature_config.protobuf \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx355:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx355 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx480:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx480 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/imx906:$(TARGET_COPY_OUT_ODM)/etc/camera/config/imx906 \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/pickref_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/config/pickref_params.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/config/quick_visibility_white_list:$(TARGET_COPY_OUT_ODM)/etc/camera/config/quick_visibility_white_list \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/s5kjn5_giulia:$(TARGET_COPY_OUT_ODM)/etc/camera/config/s5kjn5_giulia \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/video_beauty_default_config \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/distortionParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/distortionParams.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/dng/ColorMatrix1_imx581.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_imx581.txt \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/dng/ColorMatrix1_imx581_2.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ColorMatrix1_imx581_2.txt \
@@ -645,8 +632,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/mvg_sat_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/mvg_sat_config.json \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/mwStereoParams.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/pfb_bin/BeardSharp.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/pfb_bin/BeardSharp.frag:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.frag \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/pfb_bin/BeardSharp.vert:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/BeardSharp.vert \
@@ -738,8 +723,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/tele_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_inv_mapxy_33x25.bin \
-    vendor/oneplus/giulia/proprietary/odm/etc/camera/tele_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/tele_mapxy_33x25.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/text_enhance_yuv_v1.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/text_enhance_yuv_v1.tflite \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
@@ -836,10 +819,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/wifi/kiwi/bdwlan.b0i:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0i \
     vendor/oneplus/giulia/proprietary/odm/etc/wifi/kiwi/bdwlan.elf:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.elf \
     vendor/oneplus/giulia/proprietary/odm/etc/wifi/kiwi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/regdb.bin \
-    vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/23867/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/23867/charging_hyper_mode_config.txt \
-    vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/bms_heating_config.txt \
-    vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/charging_thermal_config_default.txt \
-    vendor/oneplus/giulia/proprietary/odm/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/firmware/fastchg/smart_chg_config_table.txt \
     vendor/oneplus/giulia/proprietary/odm/firmware/sipa.bin:$(TARGET_COPY_OUT_ODM)/firmware/sipa.bin \
     vendor/oneplus/giulia/proprietary/odm/firmware/tp/23851/FW_S3910_BOE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23851/FW_S3910_BOE.img \
     vendor/oneplus/giulia/proprietary/odm/firmware/tp/23851/FW_S3910_BOE_FAE.img:$(TARGET_COPY_OUT_ODM)/firmware/tp/23851/FW_S3910_BOE_FAE.img \
@@ -874,18 +853,84 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/firmware/ufs/SKhynix-HN8T374ZJKX141.bin:$(TARGET_COPY_OUT_ODM)/firmware/ufs/SKhynix-HN8T374ZJKX141.bin \
     vendor/oneplus/giulia/proprietary/odm/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh:$(TARGET_COPY_OUT_ODM)/firmware/ufs/move_target_ufs_fw_to_oplusreserve1.sh \
     vendor/oneplus/giulia/proprietary/odm/firmware/ufs/ufs_version_config.xml:$(TARGET_COPY_OUT_ODM)/firmware/ufs/ufs_version_config.xml \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/CameraHWConfiguration.config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/CameraOemConfiguration.config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/CameraOemConfiguration.config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/camera_engmode.xml \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/camera_unit_config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/camera_unit_feature_config.protobuf \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/oplus_camera_algo_traversal_config.json \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/oplus_camera_aps_config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/oplus_camera_config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/oplus_camera_preview_decision_config.json \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/oplus_preview_decision_params.json \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/s5kjn5_giulia:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/s5kjn5_giulia \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/config/video_beauty_default_config \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/oplus_camera_algo_traversal_config.json \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/oplus_eis_camera.vcfg \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/tele_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/tele_inv_mapxy_33x25.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/etc/camera/tele_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/giulia/etc/camera/tele_mapxy_33x25.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/firmware/fastchg/23867/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/giulia/firmware/fastchg/23867/charging_hyper_mode_config.txt \
+    vendor/oneplus/giulia/proprietary/odm/giulia/firmware/fastchg/bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/giulia/firmware/fastchg/bms_heating_config.txt \
+    vendor/oneplus/giulia/proprietary/odm/giulia/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/giulia/firmware/fastchg/charging_thermal_config_default.txt \
+    vendor/oneplus/giulia/proprietary/odm/giulia/firmware/fastchg/smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/giulia/firmware/fastchg/smart_chg_config_table.txt \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/awb_parameter_qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/awb_parameter_qtech_s5kjn5_tele.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele_short.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele_short.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/com.qti.tuned.qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/com.qti.tuned.qtech_s5kjn5_tele.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libaecCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libaecCustomParam_Cam0.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libaecCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libaecCustomParam_Cam1.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libaecCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libaecCustomParam_Cam2.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libaecCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libaecCustomParam_Cam3.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libafCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libafCustomParam_Cam0.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libafCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libafCustomParam_Cam1.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libafCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libafCustomParam_Cam2.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libafCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libafCustomParam_Cam3.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/libpdCustomParam_Cam0.bin \
+    vendor/oneplus/giulia/proprietary/odm/giulia/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/giulia/lib64/camera/revision.txt \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/CameraHWConfiguration.config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/CameraOemConfiguration.config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/CameraOemConfiguration.config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/camera_engmode.xml \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/camera_third_party_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/camera_third_party_feature_config.protobuf \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/camera_unit_config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/camera_unit_config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/camera_unit_feature_config.protobuf:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/camera_unit_feature_config.protobuf \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/oplus_camera_algo_switch_config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/oplus_camera_algo_traversal_config.json \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/oplus_camera_aps_config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/oplus_camera_config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/oplus_camera_preview_decision_config.json \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/oplus_preview_decision_params.json \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/ov02b:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/ov02b \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/sr_params.xml:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/sr_params.xml \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/config/video_beauty_default_config:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/config/video_beauty_default_config \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/oplus_eis_camera.vcfg \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/etc/camera/stereoParams.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/etc/camera/stereoParams.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/firmware/fastchg/23851/charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/giuliacn/firmware/fastchg/23851/charging_hyper_mode_config.txt \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/firmware/fastchg/23851/silicon_x24_charging_hyper_mode_config.txt:$(TARGET_COPY_OUT_ODM)/giuliacn/firmware/fastchg/23851/silicon_x24_charging_hyper_mode_config.txt \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/firmware/fastchg/charging_thermal_config_default.txt:$(TARGET_COPY_OUT_ODM)/giuliacn/firmware/fastchg/charging_thermal_config_default.txt \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/firmware/fastchg/silicon_x24_bms_heating_config.txt:$(TARGET_COPY_OUT_ODM)/giuliacn/firmware/fastchg/silicon_x24_bms_heating_config.txt \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/firmware/fastchg/silicon_x24_smart_chg_config_table.txt:$(TARGET_COPY_OUT_ODM)/giuliacn/firmware/fastchg/silicon_x24_smart_chg_config_table.txt \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/awb_parameter_sunny_ov02b.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/awb_parameter_sunny_ov02b.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/com.qti.sensormodule.sunny_ov02b.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/com.qti.sensormodule.sunny_ov02b.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/com.qti.tuned.sunny_ov02b.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/com.qti.tuned.sunny_ov02b.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libaecCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libaecCustomParam_Cam0.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libaecCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libaecCustomParam_Cam1.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libaecCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libaecCustomParam_Cam2.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libaecCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libaecCustomParam_Cam3.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libafCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libafCustomParam_Cam0.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libafCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libafCustomParam_Cam1.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libafCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libafCustomParam_Cam2.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libafCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libafCustomParam_Cam3.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/libpdCustomParam_Cam0.bin \
+    vendor/oneplus/giulia/proprietary/odm/giuliacn/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/giuliacn/lib64/camera/revision.txt \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_default.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_qtech_s5kjn5_tele.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_sunny_imx355.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_sunny_imx355.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_sunny_imx480.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_sunny_imx480.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/awb_parameter_sunny_imx906.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/awb_parameter_sunny_imx906.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele_short.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.qtech_s5kjn5_tele_short.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.sensormodule.sunny_imx355.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sunny_imx355.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.sensormodule.sunny_imx480.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sunny_imx480.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.sensormodule.sunny_imx906.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.sunny_imx906.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.default.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.tuned.qtech_s5kjn5_tele.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.qtech_s5kjn5_tele.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.tuned.sunny_imx355.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sunny_imx355.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.tuned.sunny_imx480.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sunny_imx480.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/com.qti.tuned.sunny_imx906.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.tuned.sunny_imx906.bin \
@@ -893,16 +938,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libaecCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam0.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libaecCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam1.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libaecCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam2.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libaecCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libaecCustomParam_Cam3.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libafCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam0.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libafCustomParam_Cam1.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam1.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libafCustomParam_Cam2.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam2.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libafCustomParam_Cam3.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libafCustomParam_Cam3.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/libpdCustomParam_Cam0.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/libpdCustomParam_Cam0.bin \
-    vendor/oneplus/giulia/proprietary/odm/lib64/camera/revision.txt:$(TARGET_COPY_OUT_ODM)/lib64/camera/revision.txt \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b00 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b01 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b02 \
@@ -1253,6 +1288,7 @@ PRODUCT_PACKAGES += \
     com.qti.sensor.imx355 \
     com.qti.sensor.imx480 \
     com.qti.sensor.imx906 \
+    com.qti.sensor.ov02b \
     com.qti.sensor.s5kjn5_giulia \
     com.oplus.node.mvgsat \
     com.oplus.node.preview \
