@@ -754,7 +754,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/display/cwb_weightspos.json:$(TARGET_COPY_OUT_ODM)/etc/display/cwb_weightspos.json \
     vendor/oneplus/giulia/proprietary/odm/etc/display/qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel.json \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
-    vendor/oneplus/giulia/proprietary/odm/etc/init/virtualcameraprovider.rc:$(TARGET_COPY_OUT_ODM)/etc/init/virtualcameraprovider.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/oprec_audrec_params/oprec_audrec_config.txt:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_audrec_config.txt \
     vendor/oneplus/giulia/proprietary/odm/etc/oprec_audrec_params/oprec_camback_calibration.bin:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_camback_calibration.bin \
@@ -812,7 +811,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/sensor/config/lux_aod.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/lux_aod.json \
     vendor/oneplus/giulia/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/giulia/proprietary/odm/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_ODM)/etc/usecaseKvManager.xml \
-    vendor/oneplus/giulia/proprietary/odm/etc/virtualcamera.json:$(TARGET_COPY_OUT_ODM)/etc/virtualcamera.json \
     vendor/oneplus/giulia/proprietary/odm/etc/wifi/kiwi/bdwlan.b0a:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0a \
     vendor/oneplus/giulia/proprietary/odm/etc/wifi/kiwi/bdwlan.b0c:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0c \
     vendor/oneplus/giulia/proprietary/odm/etc/wifi/kiwi/bdwlan.b0e:$(TARGET_COPY_OUT_ODM)/etc/wifi/kiwi/bdwlan.b0e \
@@ -1283,8 +1281,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    camera.device@3.2-impl_odm \
-    camera.device@3.3-impl_odm \
     com.qti.sensor.imx355 \
     com.qti.sensor.imx480 \
     com.qti.sensor.imx906 \
@@ -1468,13 +1464,6 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
-    vendor.oplus.hardware.virtual_device.camera.hal@3.3 \
-    vendor.oplus.hardware.virtual_device.camera.manager@1.0-impl \
-    vendor.oplus.hardware.virtual_device.camera.manager@1.0 \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.4-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.5-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.6-impl \
-    vendor.oplus.hardware.virtual_device.camera.provider@2.7-impl \
     libsixth_rx_v3 \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
@@ -1484,5 +1473,4 @@ PRODUCT_PACKAGES += \
     manifest_oplus_cammidasservice_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service \
-    virtualcameraprovider
+    vendor.oplus.hardware.cammidasservice-V1-service
