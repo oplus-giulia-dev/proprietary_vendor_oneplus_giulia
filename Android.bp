@@ -10604,6 +10604,37 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libEISLive",
+    owner: "oneplus",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/odm/lib64/libEISLive.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libsharebuffer",
+                "libui",
+                "libutils",
+                "libnativewindow",
+                "libc++_shared",
+                "libGLESv3",
+                "libEGL",
+                "libm",
+                "libdl",
+                "libc",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    device_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libFDClite",
     owner: "oneplus",
     strip: {

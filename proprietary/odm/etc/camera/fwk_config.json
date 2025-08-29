@@ -295,7 +295,8 @@
             "com.tencent.mm.plugin.voip.ui.VideoActivity",
             "com.tencent.mm.plugin.profile.ui.ContactInfoUI",
             "com.tencent.mm.plugin.multitalk.ui.MultiTalkMainUI",
-            "com.tencent.mm.ui.chatting.ChattingUI"
+            "com.tencent.mm.ui.chatting.ChattingUI",
+            ""
         ]
     },
     "com.instagram.android": {
@@ -413,7 +414,16 @@
         "needlimitsize_16_9": true,
         "3rdApp_limit_size": true,
         "maxPreviewWidthForAPI2cameraId1": 1920,
-        "maxPreviewHeightForAPI2cameraId1": 1080
+        "maxPreviewHeightForAPI2cameraId1": 1080,
+        "app_enable_fb_activity": [
+            "com.whatsapp.voipcalling.VoipActivityV2"
+        ],
+        "app_disable_fb_activity": [
+            "com.whatsapp.camera.CameraActivity",
+            "com.whatsapp.qrcode.contactqr.ContactQrActivity",
+            "com.whatsapp.statuscomposer.ConsolidatedStatusComposerActivity",
+            "com.whatsapp.status.composer.ConsolidatedStatusComposerActivity"
+        ]
     },
     "com.tencent.wework": {
         "needLimitFpsForAPI1": true

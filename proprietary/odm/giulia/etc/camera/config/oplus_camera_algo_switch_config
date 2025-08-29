@@ -157,7 +157,7 @@
                     "aps_algo_face_beauty" : 1,
                     "aps_algo_face_restore" : 1,
                     "aps_algo_rotate_mirror" : 1,
-                    "aps_algo_filter" : 0,
+                    "aps_algo_filter" : 1,
                     "aps_algo_single_blur" : 0,
                     "aps_algo_upscale" : 1,
                     "aps_algo_video_blur" : 0,
