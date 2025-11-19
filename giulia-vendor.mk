@@ -6,6 +6,33 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/giulia
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_max.odf \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_2_100nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_2_100nit.odf \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_2_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_2_2nit.odf \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_2_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_2_max.odf \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Cinema_100nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Cinema_2nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Cinema_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Cinema_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EP3_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EP3_100nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EP3_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EP3_2nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EP3_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EP3_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EsRGB_100nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EsRGB_2nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EsRGB_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_EsRGB_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_HS:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_HS \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_LsRGB_100nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_LsRGB_2nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_LsRGB_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_LsRGB_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Nature_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Nature_100nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Nature_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Nature_2nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Nature_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Nature_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Vivid_100nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Vivid_2nits_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_Vivid_pGC.txt \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AdjustValue:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AdjustValue \
+    vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/panelchaplin:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/panelchaplin \
     vendor/oneplus/giulia/proprietary/odm/etc/acdbdata/Audio_Parameter_Version.txt:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/Audio_Parameter_Version.txt \
     vendor/oneplus/giulia/proprietary/odm/etc/acdbdata/FTM/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/acdb_cal.acdb \
     vendor/oneplus/giulia/proprietary/odm/etc/acdbdata/FTM/workspaceFileXml.qwsp:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/FTM/workspaceFileXml.qwsp \
@@ -751,9 +778,14 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/wide_inv_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_inv_padding_mapxy_33x25.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
-    vendor/oneplus/giulia/proprietary/odm/etc/display/cwb_weightspos.json:$(TARGET_COPY_OUT_ODM)/etc/display/cwb_weightspos.json \
     vendor/oneplus/giulia/proprietary/odm/etc/display/qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel.json:$(TARGET_COPY_OUT_ODM)/etc/display/qdcm_calib_data_AA577_P_3_A0020_dsc_cmd_mode_panel.json \
+    vendor/oneplus/giulia/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
+    vendor/oneplus/giulia/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
+    vendor/oneplus/giulia/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/giulia/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
+    vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
+    vendor/oneplus/giulia/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/oprec_audrec_params/oprec_audrec_config.txt:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_audrec_config.txt \
     vendor/oneplus/giulia/proprietary/odm/etc/oprec_audrec_params/oprec_camback_calibration.bin:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_camback_calibration.bin \
@@ -936,6 +968,17 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideo.bin \
     vendor/oneplus/giulia/proprietary/odm/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/fdconfigvideolite.bin \
+    vendor/oneplus/giulia/proprietary/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_ODM)/vendor/etc/wifi/WCNSS_qcom_cfg.ini \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b00 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b01 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b02 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b03:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b03 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b04:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b04 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b05:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b05 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b06 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b07 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.b08 \
+    vendor/oneplus/giulia/proprietary/odm/vendor/firmware/alipay.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/alipay.mdt \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b00:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b00 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b01:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b01 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_jv.b02:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_jv.b02 \
@@ -956,9 +999,121 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b07 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.b08:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.b08 \
     vendor/oneplus/giulia/proprietary/odm/vendor/firmware/uff_spi.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/uff_spi.mdt \
+    vendor/oneplus/giulia/proprietary/vendor/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/2024-01-12_platform_RSA_license_a226ad89-a187-4b14-9447-d20bfe9dac1a.pfm \
+    vendor/oneplus/giulia/proprietary/vendor/etc/clstc_config_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/clstc_config_library.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU1010.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1010.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU1020.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU1020.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU10__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU10__.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU870.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU870.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/DPU9__.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU9__.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/perf_hint_threshold.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/perf_hint_threshold.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display/thermallevel_to_fps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/thermallevel_to_fps.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/display_apollo_list_AA577_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display_apollo_list_AA577_P_3_A0020_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/dolby_vision.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/dolby_vision.cfg \
+    vendor/oneplus/giulia/proprietary/vendor/etc/init/feature_enabler_client.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/feature_enabler_client.rc \
+    vendor/oneplus/giulia/proprietary/vendor/etc/init/init.qti.graphics.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.graphics.rc \
+    vendor/oneplus/giulia/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
     vendor/oneplus/giulia/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
+    vendor/oneplus/giulia/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/giulia/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/oneplus/giulia/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
+    vendor/oneplus/giulia/proprietary/vendor/etc/ltm_config_AA577_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA577_P_3_A0020_dsc_cmd_mode_panel.xml \
+    vendor/oneplus/giulia/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
+    vendor/oneplus/giulia/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b00 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b01 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b02 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b03 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b04 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b05 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b06 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b07 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b08 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b09 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b10 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b11 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b12 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b13 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b14 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b15 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b16 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b17 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b18 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b19 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.b20 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.mdt \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/dpAP_full.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_full.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/dpAP_mini.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_mini.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/dpAP_modemssr.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpAP_modemssr.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/dpMSA.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/dpMSA.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b04 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b05 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b06 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b07 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b08 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b09 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b10 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b11 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b12 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b13 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b14 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b15 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b16 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b17 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b18 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gen70900_aqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_aqe.fw \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gen70900_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_sqe.fw \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gen70900_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen70900_zap.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gen71100_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_gmu.bin \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gen71100_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_sqe.fw \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gen71100_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_zap.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/qps615_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qps615_fw.bin \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/tof8801_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tof8801_firmware.bin \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu30_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_2v.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu30_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu30_2v_unsigned.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu33_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/vpu33_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu33_4v_unsigned.mbn \
+    vendor/oneplus/giulia/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/oneplus/giulia/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/oneplus/giulia/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/oneplus/giulia/proprietary/vendor/lib64/bm3b68v04s12n53.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm3b68v04s12n53.bin \
     vendor/oneplus/giulia/proprietary/vendor/lib64/bm3b73v04s12n50.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm3b73v04s12n50.bin \
     vendor/oneplus/giulia/proprietary/vendor/lib64/bm4a68v08s12n52.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/bm4a68v08s12n52.bin \
@@ -1084,6 +1239,7 @@ PRODUCT_PACKAGES += \
     com.qti.hwcfg.bps \
     com.qti.hwcfg.ife \
     com.qti.hwcfg.ipe \
+    com.qti.hwcfg.tfe \
     com.qti.node.afbfusion \
     com.qti.node.aon \
     com.qti.node.customhwnode \
@@ -1196,12 +1352,14 @@ PRODUCT_PACKAGES += \
     com.qti.chi.offline \
     com.qti.chi.override \
     libGCore4Cell_32E2 \
+    libPanelChaplin_vendor \
     libRGBC \
     libSonyIMX471RmscLibrary \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_triple_sat_vendor \
     libarcsoft_triple_zoomtranslator_vendor \
+    libbacklight-calib \
     libbitmlengine \
     libbitmlenginev2 \
     libcamerapostproc \
@@ -1221,19 +1379,39 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchifeature2 \
     libchilog \
+    libclstc_algorithm_adapter \
+    libclstc_gcp_adapter \
+    libclstc_tm \
     libcolor-default \
     libcom.qti.chinodeutils \
     libcommonchiutils \
+    libcwb_client_vendor \
+    libcwb_qcom_aidl \
     libdepthcomputation \
+    libdigital-dimming \
+    libdisp-aba \
+    libdisplayconfig.qti \
+    libdisplayqos \
+    libdisplayskuutils \
+    libdpp_manager \
+    libdpps \
     libdualcam_optical_zoom_control_vendor \
     libdualcam_video_optical_zoom_vendor \
     libeepromcutter \
     libfeutils \
+    libgame_enhance \
     libhdr10plus \
+    libhdr_backlight_adapter \
     libhdr_stub \
+    libhdr_tm \
+    libhdrdynamic \
+    libhdrdynamicootf \
+    libhdrvivid \
+    libhistogram \
     libhme \
     libhwconfigurationutil_vendor \
     libhwcsensor \
+    libintervmipc \
     libipebpsstriping \
     libipebpsstriping170 \
     libipebpsstriping480 \
@@ -1242,6 +1420,7 @@ PRODUCT_PACKAGES += \
     libjni_imageutil \
     libjpege \
     libmctfengine_stub \
+    libmemutils \
     libmfGhostDetection \
     libmfec \
     libmidasserviceintf \
@@ -1256,29 +1435,71 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libopestriping \
+    libpwirisfeature_vendor \
+    libpwirishal \
+    libpwirishalwrapper_vendor \
+    libqdcm-algo \
+    libqdcm-json-mode-parser \
+    libqdcm-mode-parser \
+    libqdutils \
     libqll \
     libqll10 \
     libqllengine \
+    libqrtrclient \
+    libqseed3 \
     libqsegnet \
     libqshcamera \
+    librcmask \
+    libsdedrm \
+    libsdm-color \
+    libsdm-colormgr-algo \
+    libsdm-disp-vndapis \
+    libsdmcore \
+    libsdmdal \
+    libsdmextension \
+    libsdmutils \
     libsfeShiftExtrapolation \
     libsgutils2 \
+    libsnapdragoncolor-manager \
+    libsnapdragoncolor-qdcm \
     libspectre \
     libswregistrationalgo \
+    libtestutils \
     libtfestriping \
+    libtinyxml2_1 \
     libtriplecam_optical_zoom_control_vendor \
     libtriplecam_video_optical_zoom_vendor \
     libubifocus \
     libvideoml \
+    libvmfilexfer \
+    sensors.qsh \
+    vendor.display.color@1.0 \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.color@1.3 \
+    vendor.display.color@1.4 \
+    vendor.display.color@1.5 \
+    vendor.display.postproc@1.0 \
     vendor.oplus.hardware.camera.aon-V1-ndk_platform \
     vendor.oplus.hardware.camera.aon-service-impl \
     vendor.oplus.hardware.camera_rfi-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice-V1-ndk_vendor \
     vendor.oplus.hardware.cammidasservice@1.0 \
     vendor.oplus.hardware.commondcs-V1-ndk_platform \
+    vendor.oplus.hardware.cwb-V1-ndk \
+    vendor.oplus.hardware.cwb@1.0 \
+    vendor.oplus.hardware.displaycolorfeature-V1-ndk_vendor \
+    vendor.pixelworks.hardware.display-V2-ndk \
+    vendor.pixelworks.hardware.display@1.0_vendor \
+    vendor.pixelworks.hardware.display@1.1_vendor \
+    vendor.pixelworks.hardware.display@1.2_vendor \
+    vendor.pixelworks.hardware.feature-V1-ndk \
+    vendor.pixelworks.hardware.feature@1.0_vendor \
+    vendor.pixelworks.hardware.feature@1.1_vendor \
     vendor.qti.hardware.camera.aon-service-impl \
     vendor.qti.hardware.camera.offlinecamera-service-impl \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.qti.hardware.qdutils_disp@1.0 \
     com.qti.sensor.imx355 \
     com.qti.sensor.imx480 \
     com.qti.sensor.imx906 \
@@ -1333,11 +1554,13 @@ PRODUCT_PACKAGES += \
     libOPLUSMotionDetection \
     libOplusPDCore \
     libOpo_awb \
+    libPanelChaplin \
     libPerfectlyClearCruxOpt \
     libPlatformValidatorShared \
     libPolarrRender \
     libPreviewDecisionOld \
     libRedeyeReduce \
+    libSNPE \
     libSnpeHta \
     libSnpeHtpPrepare \
     libSnpeHtpV75Stub \
@@ -1363,9 +1586,13 @@ PRODUCT_PACKAGES += \
     libancbase_segment \
     libancbase_segmulti \
     libapsexif \
+    libapsjpeg \
     libapspng \
+    libapsultrahdr \
     libapsyuv \
     libarc.fusion \
+    libarc.ion \
+    libarcsoft_ai_moon \
     libarcsoft_distortion_correction \
     libarcsoft_dual_sat \
     libarcsoft_dual_zoomtranslator \
@@ -1386,6 +1613,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_mcxmflpolicy \
     libarcsoft_merge_hdr_denoise_api \
     libarcsoft_preview_antibanding \
+    libarcsoft_qnnhtp \
     libarcsoft_scbokeh_video \
     libarcsoft_smart_denoise \
     libarcsoft_smart_denoise_v4 \
@@ -1399,11 +1627,17 @@ PRODUCT_PACKAGES += \
     libarcsoft_turbo_raw \
     libarcsoft_ultra_high_dynamic_range \
     libarcsoft_videoautozoom \
+    libc++_shared \
     libcalculator \
     libcalculator_htp \
     libcreatebin \
     libcvface_api \
+    libdisplayaidlapis \
+    libdisplaycolorfeature \
+    libdisplayfossfeature_nature \
     libdlrmsc \
+    libdolbyclstc \
+    libdpaservice \
     libdualcam_optical_zoom_control \
     libdualcam_video_optical_zoom \
     libeffect_custom \
@@ -1416,6 +1650,7 @@ PRODUCT_PACKAGES += \
     libhybridraw_tuningparams \
     libhyperlapse \
     libimgClarityEvaluate \
+    libmpbase \
     libmsnativefilter \
     libmvgcommon \
     libnpu \
@@ -1426,9 +1661,13 @@ PRODUCT_PACKAGES += \
     liboplusblur_capture_api \
     liboprec_audrec \
     liboprec_audrec_wrapper \
+    libosie_process \
+    libosie_stub \
     libpdCustomParamParser \
     libpngwrapper \
     libportrait_repair_qnn \
+    libpwirisfeature \
+    libpwirishalwrapper \
     libqsh.utils \
     libremosaic_wrapper \
     libremosaiclib_s5k3p9 \
@@ -1461,15 +1700,33 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.camera_rfi-V1-ndk \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
     vendor.oplus.hardware.cammidasservice-V1-ndk \
+    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
+    vendor.oplus.hardware.displaycolorfeature-V1-ndk \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.oplus.hardware.sendextcamcmd-V2-ndk \
+    vendor.pixelworks.hardware.display@1.0 \
+    vendor.pixelworks.hardware.display@1.1 \
+    vendor.pixelworks.hardware.display@1.2 \
+    vendor.pixelworks.hardware.feature@1.0 \
+    vendor.pixelworks.hardware.feature@1.1 \
     libsixth_rx_v3 \
     vendor.qti.camera.aon-impl.xml \
     vendor.qti.camera.offlinecamera-impl.xml \
     vendor.qti.camera.postproc-impl.xml \
     vendor.qti.camera.provider.xml \
+    manifest_displaycolorfeature_aidl.xml \
     manifest_oplus_camera_rfi.xml \
     manifest_oplus_cammidasservice_aidl.xml \
+    manifest_oplus_cwb_aidl.xml \
+    manifest_oplus_displaypanelfeature_aidl.xml \
     manifest_oplus_sendextcamcmd.xml \
+    feature_enabler_client \
     vendor.qti.camera.provider-service_64 \
-    vendor.oplus.hardware.cammidasservice-V1-service
+    vendor.qti.hardware.display.color-service \
+    vendor.qti.hardware.display.composer-service \
+    init.qti.graphics \
+    ppd \
+    qdcmss \
+    cwb_utils_aidl \
+    vendor.oplus.hardware.cammidasservice-V1-service \
+    vendor.oplus.hardware.displaypanelfeature-service
