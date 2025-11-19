@@ -785,6 +785,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
+    vendor/oneplus/giulia/proprietary/odm/etc/libnfc-mtp-SN220.conf_23851:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_23851 \
+    vendor/oneplus/giulia/proprietary/odm/etc/libnfc-mtp-SN220.conf_23867:$(TARGET_COPY_OUT_ODM)/etc/libnfc-mtp-SN220.conf_23867 \
     vendor/oneplus/giulia/proprietary/odm/etc/media_codecs_dolby_vision.xml:$(TARGET_COPY_OUT_ODM)/etc/media_codecs_dolby_vision.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/mixer_paths.xml:$(TARGET_COPY_OUT_ODM)/etc/mixer_paths.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/oprec_audrec_params/oprec_audrec_config.txt:$(TARGET_COPY_OUT_ODM)/etc/oprec_audrec_params/oprec_audrec_config.txt \
@@ -1018,7 +1020,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/vendor/etc/init/vendor.qti.camera.provider-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider-service_64.rc \
     vendor/oneplus/giulia/proprietary/vendor/etc/init/vendor.qti.hardware.display.color-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.display.color-service.rc \
     vendor/oneplus/giulia/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
-    vendor/oneplus/giulia/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/oneplus/giulia/proprietary/vendor/etc/ltm_config_AA577_P_3_A0020_dsc_cmd_mode_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ltm_config_AA577_P_3_A0020_dsc_cmd_mode_panel.xml \
     vendor/oneplus/giulia/proprietary/vendor/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm:$(TARGET_COPY_OUT_VENDOR)/etc/oem_51_prj_OppoLTM8650_1689712162019.pfm \
     vendor/oneplus/giulia/proprietary/vendor/etc/snapdragon_color_libs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/snapdragon_color_libs_config.xml \
