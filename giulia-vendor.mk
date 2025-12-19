@@ -1121,6 +1121,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/vendor/firmware/gen71100_zap.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/gen71100_zap.mbn \
     vendor/oneplus/giulia/proprietary/vendor/firmware/gmu_gen70900.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/gmu_gen70900.bin \
     vendor/oneplus/giulia/proprietary/vendor/firmware/qps615_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/qps615_fw.bin \
+    vendor/oneplus/giulia/proprietary/vendor/firmware/sn220u.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sn220u.bin \
     vendor/oneplus/giulia/proprietary/vendor/firmware/tof8801_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tof8801_firmware.bin \
     vendor/oneplus/giulia/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
     vendor/oneplus/giulia/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
