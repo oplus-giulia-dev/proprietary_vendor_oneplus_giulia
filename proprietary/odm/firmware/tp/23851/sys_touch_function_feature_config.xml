@@ -161,7 +161,7 @@
                     <value>1</value>
                 </param>
                 <param name="prevention,uniform_make_up_point_v2" type="u32" hint="" >
-                    <value>10,2,7,7,1</value>
+                    <value>10,2,45,5,1</value>
                 </param>
                 <param name="prevention,corner_point_scale_info_check" type="u32" hint="" >
                     <value>400,40,5,2,1</value>
@@ -227,6 +227,9 @@
                 </param>
                 <param name="touchZToPressureSupport" type="u32" hint="" >
                     <value>1</value>
+                </param>
+                <param name="fp_down_prevent_support" type="u32" hint="">
+                    <value>10112, 40320, 3200, 3200</value>
                 </param>
                 <param name="floatLimitValue" type="u32" hint="" >
                     <value>700</value>

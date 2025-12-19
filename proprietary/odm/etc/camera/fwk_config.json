@@ -295,8 +295,7 @@
             "com.tencent.mm.plugin.voip.ui.VideoActivity",
             "com.tencent.mm.plugin.profile.ui.ContactInfoUI",
             "com.tencent.mm.plugin.multitalk.ui.MultiTalkMainUI",
-            "com.tencent.mm.ui.chatting.ChattingUI",
-            ""
+            "com.tencent.mm.ui.chatting.ChattingUI"
         ]
     },
     "com.instagram.android": {
@@ -400,7 +399,16 @@
     },
     "com.pinterest": {
         "previewSizeForAPI1Width": 2160,
-        "previewSizeForAPI1Height": 1080
+        "previewSizeForAPI1Height": 1080,
+        "needMatchPkgName": true,
+        "resolutionFilterForNotAddSizeAPI2": [
+            "1440x1080",
+            "1280x960",
+            "1024x768",
+            "720x540",
+            "3840x2160",
+            "3280x1856"
+        ]
     },
     "com.microsoft.office.outlook": {
         "needlimitsize_16_9": true,
@@ -440,6 +448,10 @@
         "maxPreviewHeightForAPI2cameraId1": 1080,
         "maxPreviewWidthForAPI2cameraId0": 1920,
         "maxPreviewHeightForAPI2cameraId0": 1080
+    },
+    "com.shuru.nearme": {
+        "previewSizeForAPI1Width": 2376,
+        "previewSizeForAPI1Height": 1080
     },
     "com.vkontakte.android": {
         "needLimitFpsForAPI1": true

@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/oneplus/giulia
 
 PRODUCT_COPY_FILES += \
+    vendor/oneplus/giulia/proprietary/odm/etc/Custom_LUT_hlg.cube:$(TARGET_COPY_OUT_ODM)/etc/Custom_LUT_hlg.cube \
     vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_100nit.odf \
     vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_2nit.odf \
     vendor/oneplus/giulia/proprietary/odm/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_max.odf:$(TARGET_COPY_OUT_ODM)/etc/PanelChaplin/AA577_P_3_A0020_dsc_cmd_mode_panel_1_max.odf \
@@ -94,6 +95,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/aigc_models/blurDet_sm8650.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/blurDet_sm8650.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/aigc_models/faceSeg_sm8650.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/faceSeg_sm8650.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/aigc_models/gfpgan1024_sm8650.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/gfpgan1024_sm8650.bin \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/aigc_models/noise200.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/noise200.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/aigc_models/noise300.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/noise300.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/libs/libODNN.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libODNN.so \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so \
@@ -602,6 +604,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
@@ -629,6 +632,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/island.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/island.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
@@ -636,6 +640,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/morning.dream.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morning.dream.cube.rgb.bin \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/mountains.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mountains.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin \
@@ -775,6 +780,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/tonemap/tonemap_lut_7:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_7 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/tonemap/tonemap_lut_8:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_8 \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/tonemap/tonemap_lut_9:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/tonemap_lut_9 \
+    vendor/oneplus/giulia/proprietary/odm/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/v10_vamm_sig_norm_0408_8143_SIM.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/wide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/wide_inv_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_inv_padding_mapxy_33x25.bin \
     vendor/oneplus/giulia/proprietary/odm/etc/camera/wide_padding_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/wide_padding_mapxy_33x25.bin \
@@ -782,6 +788,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/giulia/proprietary/odm/etc/displaycolorfeaturecfg.xml:$(TARGET_COPY_OUT_ODM)/etc/displaycolorfeaturecfg.xml \
     vendor/oneplus/giulia/proprietary/odm/etc/dolby/display/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/display/dolby_vision.cfg \
     vendor/oneplus/giulia/proprietary/odm/etc/dolby/dolby_vision.cfg:$(TARGET_COPY_OUT_ODM)/etc/dolby/dolby_vision.cfg \
+    vendor/oneplus/giulia/proprietary/odm/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube:$(TARGET_COPY_OUT_ODM)/etc/hdr3dlut_pq_qcom_grid_out_rgb.cube \
     vendor/oneplus/giulia/proprietary/odm/etc/init/hw/init.oplus.display.rc:$(TARGET_COPY_OUT_ODM)/etc/init/hw/init.oplus.display.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.cammidasservice-V1-service.rc \
     vendor/oneplus/giulia/proprietary/odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc \
@@ -1531,6 +1538,7 @@ PRODUCT_PACKAGES += \
     libCS \
     libCaptureBokeh \
     libDeVIS \
+    libDocRectification \
     libEIS \
     libEISLive \
     libFDClite \
@@ -1583,6 +1591,8 @@ PRODUCT_PACKAGES += \
     libaisd \
     libaiseg \
     libalCFR \
+    libalog \
+    libalogencrypt \
     libancbase_rt_fusion \
     libancbase_segbase \
     libancbase_segment \
